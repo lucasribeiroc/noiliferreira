@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,400&display=swap");
 
 * {
   margin: 0;
@@ -61,4 +61,37 @@ img {
   font-family: "Josefin Sans";
   font-weight: 300;
   font-size: 1.4rem;
+  color: #8b008b;
+}
+
+.address {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto 200px;
+  padding-top: 5rem;
+  gap: 3rem;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.address-data {
+  font-family: "Josefin Sans";
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 3rem;
+  color: #8a2be2;
+}
+
+.address-data a {
+  color: #8b008b;
+  text-decoration: none;
+}
+
+.address-data a:hover {
+  color: #8b008b;
+  text-decoration: underline;
 }
